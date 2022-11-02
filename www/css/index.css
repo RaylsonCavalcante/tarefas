@@ -1,0 +1,131 @@
+.navbar{ /* Cor da NAVBAR */
+    background-color: #5280e2;
+}
+
+.display{ /* Ocultar elementos da tela */
+    display: none;
+}
+
+h1{ /* Estilo do <h1> */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:linear-gradient(to left, rgb(168, 83, 194) 10%, #5a73c5 80%);
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 4%;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+}
+
+.divNovaTarefa{ /* Estilo da Tela Nova Tarefa */
+    position: fixed;
+    left: 0;
+    padding-top: 0px;
+    background-image:linear-gradient(to bottom, rgb(161, 184, 228) 10%, #5280e2 80%);
+    height: calc(100vh);
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    width: 100%;
+}
+
+.esconderTelaNovaTarefa{ /* Esconde Tela Nova Tarefa */
+    -webkit-transform: translateX(-110%);
+    -ms-transform: translateX(-110%);
+    transform: translateX(-110%); 
+    -webkit-transition: .9s all ease-in-out;
+  	-o-transition: .9s all ease-in-out;
+  	transition: .9s all ease-in-out;
+}
+
+fieldset{ /* Estilo do Fildset (Nova Tarefa) */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+    width: 90%;
+    height: relative;
+    border-radius: 5%;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+}
+
+.campos{ /* Largura dos campos */
+    width: 80%;
+}
+
+.btn-adicionar{ /* Botão de Adicionar Tarefa */
+    width: 30%;
+    margin-bottom: 5%;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77);
+}
+
+.sombra{ /* Sombra nos elementos */
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+}
+
+
+
+                                            /*TELA LISTA DE TAREFAS*/
+
+.divLista{ /* Estilo da Tela Lista de Tarefas */
+    position: fixed;
+  	left: 0;
+  	padding-top: 0px;
+    Background-image:linear-gradient(to bottom, rgb(161, 184, 228) 10%, #5280e2 80%);
+  	height: 100vh;
+  	-webkit-transform: translateX(110%);
+  	-ms-transform: translateX(110%);
+  	transform: translateX(110%);
+  	-webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+  	box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+  	-webkit-transition: .4s all ease-in-out;
+  	-o-transition: .4s all ease-in-out;
+  	transition: .4s all ease-in-out;
+  	width: 100vw;
+    overflow: auto;
+}
+
+.listFixa{ /* Fixa a Lista de Tarefas */
+    position: fixed;
+    margin-top: 15%;
+    width: 100vw;
+}
+.accordion{ /* Estilo do Accordion (Lista) */
+    width: 90%;
+    margin-bottom: 10%;
+}
+
+.accordion-item{ /* Estilo dos itens da Lista */
+    margin-top: 2%;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77);
+}
+
+.accordion-button:focus{ /* Tira borda quando clicado*/
+    box-shadow: none !important;
+}
+
+#idTitulo{ /* Estilo do Texto (Titulo) na lista */
+    margin-left: 3%;
+    margin-top: 0.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mostraTelaLista{ /* Mostra a Tela Lista de Tarefas */
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); 
+}
