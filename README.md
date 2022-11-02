@@ -22,7 +22,7 @@ Na criação do sistema utilizei as seguintes linguagens e ferramentas:
 * SWEETALERT2 (Para os Alertas)<br>
 * CORDOVA (Para criar o App)
 
-<h3>COMO TESTAR:</h3>
+<h3>RODAR:</h3>
 Você precisará ter o Cordova instalado em sua máquina.<br>
 Com os comandos Cordova, você conseguirá depurar o App e vai poder testar em seu smartphone.
 
