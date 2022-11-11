@@ -8,7 +8,8 @@
 
 Olá Devs!
 Fiz esse pequeno projeto com Cordova para Fins de Estudo.<br>
-No aplicativo podemos Salvar e Deletar Tarefas.
+No aplicativo podemos Salvar e Deletar Tarefas.<br><br>
+Para salvar os dados localmente, usamos a ferramenta "LocalStore", um dos recursos do DOM Storage que podemos armazenar dados apenas em formato de texto.
 
 
 <h3>LINGUAGENS E FERRAMENTAS:</h3>
